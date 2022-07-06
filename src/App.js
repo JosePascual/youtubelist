@@ -1,13 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
+import GridOpponents from "./components/GridOpponents";
+import Header from "./components/Header";
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-			</header>
-		</div>
+		<main className="bg-slate-800 min-h-screen py-10">
+			<Header />
+
+			<GridOpponents title="List of opponents" />
+		</main>
 	);
 }
 
