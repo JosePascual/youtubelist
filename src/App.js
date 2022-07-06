@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import GridOpponents from "./components/GridOpponents";
 import Header from "./components/Header";
 
